@@ -14,8 +14,8 @@ var sources = [ "llama.cpp/ggml/src/ggml.c",
                 "llama.cpp/ggml/src/ggml-backend-reg.cpp",
                 "llama.cpp/ggml/src/ggml-metal/ggml-metal.m",
                 "llama.cpp/ggml/src/ggml-blas/ggml-blas.cpp",
-                "llama.cpp/ggml/src/ggml-aarch64.c",
-                "llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.c",
+                // "llama.cpp/ggml/src/ggml-aarch64.c", // This file no longer exists in b4563
+                "llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp", // Updated extension from .c to .cpp
                 "llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
                 "llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
                 "llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c",
