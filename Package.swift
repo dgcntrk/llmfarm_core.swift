@@ -120,7 +120,7 @@ var linkerSettings: [LinkerSetting] = [
 
 var resources: [Resource] = [
                 // .copy("tokenizers"),
-                .process("llama.cpp/ggml/src/ggml-metal.metal"),
+                .process("llama.cpp/ggml/src/ggml-metal/ggml-metal.metal"),
                 // .copy("metal")
             ]
 
